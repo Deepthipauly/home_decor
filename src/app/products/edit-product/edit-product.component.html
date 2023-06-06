@@ -1,0 +1,26 @@
+
+<div class="container">
+    <h1> Edit Product Product</h1>
+    <hr>
+<form (ngSubmit)="updateProduct(updateProductForm)" action="" #updateProductForm="ngForm">
+    <input [(ngModel)]="pdata.id" class="form-control" type="text"  name="Id" id="Id1"> <br>
+    <input [(ngModel)]="pdata.productName" class="form-control" type="text"  name="name" id="Id2"> <br>
+
+    <input [(ngModel)]="pdata.categoryId" class="form-control" type="text"  name="categoryId" id="categoryId1"
+      required><br>
+    <input [(ngModel)]="pdata.description"  class="form-control" type="text"  name="description" id="description1"
+      required><br>
+    <input  [(ngModel)]="pdata.price" class="form-control" type="text"  name="price" id="price1" required><br>
+    <input [(ngModel)]="pdata.productImg"  class="form-control" type="text"  name="productImg" id="productImg1"
+      required><br>
+    <input [(ngModel)]="pdata.isavailable" class="form-control" type="text"  name="available" id="available"
+      required><br>
+    <input [(ngModel)]="pdata.rating" class="form-control" type="text"  name="rating" id="rating1" required><br>
+    <input [(ngModel)]="pdata.review"  class="form-control" type="text"  name="review" id="review1" required><br>
+    <input [(ngModel)]="pdata.vendorName" class="form-control" type="text"  name="vendor-name" id="vendor-name"
+      required><br>
+    <input [(ngModel)]="pdata.warrenty" class="form-control" type="text"  name="warrenty" id="warrenty" required><br>
+   
+    <button type="submit" class="registerbtn">Update</button>
+  </form>
+  </div>

@@ -1,0 +1,41 @@
+json server
+
+npm i --save json-server   // to install server
+
+npx json-server --watch db.json --port 3000
+
+to access params from url
+--------------------
+Module:Router Module
+
+ActivatedRoute class
+method:params which is a method to access params, comes under ActivatedRoute class
+
+
+pipe creation in angular
+----------------------------
+
+data transform vendi an pipe use akunath.
+
+pipe create cheyan-- ng g pipe pipeName
+
+transform(value,filterSpring,propName)
+
+value= pipe applying data
+filterSpring = keyword used to filter data
+propName = filter applying property in data
+
+------------------------------------------------------
+
+oru module data vere module k edkan
+....................................
+
+behavioural subject - rxjs
+
+rxjs- reactive extension for javascript
+
+steps:
+1. import behaviour subject
+2.create an object of behaviour subject.
+3.send the data using next method
+
